@@ -3,7 +3,7 @@
 <portfolio id="AuditLocalGovernmentDepartment1_2020" description="AAG Naser Arllati: supervision of Departments Auditing Local Government Institutions" coverage="year of 2020" org="National Audit Office of Kosovo" publish="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PortfolioSchema.xsd" >
 	<audits>
 	<Audit>
-			<About id="GJILAN2019">
+			<About id="GJILAN2019" year="2019" month="01">
 				<version id="1.0"/>
 				<title>
 					<tx l="eng" nm="AUDIT ON THE ANNUAL FINANCIAL STATEMENTS OF GJILAN MUNICIPALITY "/>

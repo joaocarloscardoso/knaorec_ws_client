@@ -64,7 +64,21 @@
 														<xs:documentation>autocalc</xs:documentation>
 													</xs:annotation>
 												</xs:attribute>
-												<xs:attribute name="date" type="xs:string"/>
+												<xs:attribute name="year" type="xs:token" use="required">
+													<xs:annotation>
+														<xs:documentation>NEW year of the audit repor issue</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+												<xs:attribute name="month" type="xs:token">
+													<xs:annotation>
+														<xs:documentation>NEW month of the issue</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+												<xs:attribute name="date" type="xs:token">
+													<xs:annotation>
+														<xs:documentation>TBD</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
 												<xs:attribute ref="rem"/>
 											</xs:complexType>
 										</xs:element>
@@ -202,7 +216,7 @@
 																	<xs:restriction base="xs:string"/>
 																</xs:simpleType>
 															</xs:attribute>
-															<xs:attribute name="priority" use="required">
+															<xs:attribute name="priority">
 																<xs:simpleType>
 																	<xs:restriction base="xs:string"/>
 																</xs:simpleType>
@@ -215,12 +229,8 @@
 																	<xs:restriction base="xs:string"/>
 																</xs:simpleType>
 															</xs:attribute>
-															<xs:attribute name="nr" use="required">
-																<xs:simpleType>
-																	<xs:restriction base="xs:string"/>
-																</xs:simpleType>
-															</xs:attribute>
-															<xs:attribute name="importance" use="required">
+															<xs:attribute ref="nr"/>
+															<xs:attribute name="importance">
 																<xs:simpleType>
 																	<xs:restriction base="xs:string"/>
 																</xs:simpleType>
@@ -298,6 +308,9 @@
 				</xs:simpleType>
 			</xs:attribute>
 			<xs:attribute name="coverage" use="required">
+				<xs:annotation>
+					<xs:documentation>years covered by the Portfolio</xs:documentation>
+				</xs:annotation>
 				<xs:simpleType>
 					<xs:restriction base="xs:string"/>
 				</xs:simpleType>
@@ -344,5 +357,9 @@
 			</xs:attribute>
 		</xs:complexType>
 	</xs:element>
-	<xs:attribute name="nr" type="xs:token"/>
+	<xs:attribute name="nr" type="xs:token">
+		<xs:annotation>
+			<xs:documentation>number or letter or other sequential mark in the report</xs:documentation>
+		</xs:annotation>
+	</xs:attribute>
 </xs:schema>

@@ -16,6 +16,6 @@ app.use(express.urlencoded({limit: '50mb'}));
 app.listen(3003,function(){
     console.log('Server started on port 3003...');
     //service.GetPortfolios();
-    //service.AddPortfolio('Portfolio03');
-    //service.DeletePortfolio('Portfolio03');
+    service.AddPortfolio('KNAOPortfolio');
+    //service.DeletePortfolio('Portfolio01');
 })

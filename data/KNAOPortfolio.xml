@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<portfolio autoNr="1" publish="1" coverage="2020">
+  <name>
+    <tx l="sq" nm="Auditime F&amp;P" description="Auditimet Financiare dhe të Pajtueshmërisë" />
+    <tx l="en" nm="F&amp;C Audits" description="Financial and Compliance Audits" />
+    <tx l="sr" nm="Revizije F&amp;U" description="Revizije finansija i usklađenosti" />
+  </name>
+  <audits>
+    <Audit>
+      <About id="6636" date="2021-06-15" yearCovered="2020" casesNumber="7">
+        <version id="1" />
+        <title>
+          <tx l="sq" nm="Auditimi i Komisionit të Pavarur për Miniera dhe Minerale" descriptionfile="https://www.zka-rks.org/wp-content/uploads/2021/06/RaportiAuditimit_KPMM_2020_Shqip.pdf" />
+          <tx l="en" nm="Audit of The independent commission for mines and minerals" descriptionfile="" />
+          <tx l="sr" nm="Revizija Nezavisne komisije za rudnike i minerale" descriptionfile="https://www.zka-rks.org/wp-content/uploads/2021/06/RaportiAuditimit_KPMM_2020_Ser.pdf" />
+        </title>
+      </About>
+      <Background>
+        <ak l="sq">Tekst i paracaktuar për sfond</ak>
+        <ak l="en">Predefined text for background</ak>
+        <ak l="sr">Predefinirani tekst za pozadinu</ak>
+      </Background>
+      <Scope>
+        <ak l="sq">Komisioni i Pavarur për Miniera dhe Minerale</ak>
+        <ak l="en"></ak>
+        <ak l="sr"></ak>
+      </Scope>
+      <Cases />
+      <Recommendations>
+        <Recommendation nr="11932" riskevaluation="Entity" risk="" repeated="D" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Kryetari i Bordit duhet të siguroj që vendimmarrja e pajisjes me licencë dhe leje apo refuzimi i tyre, të bëhet brenda afateve kohore të përcaktuara me ligj.</quote>
+          <quote l="sq" type="aplan">Kontrolloni se KPMM/Bordi ka marre vendime p&amp;euml;r dh&amp;euml;nien, apo refuzimin e k&amp;euml;rkes&amp;euml;s p&amp;euml;r licence, brenda afatet kohor t&amp;euml; parapara me ligje.Ref (Ligji p&amp;euml;r miniera dhe minerale Neni 23, pika 1.6, 2 dhe 3 ).</quote>
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline" />
+          <quote l="sq" type="outcome">I zbatuar</quote>
+          <quote l="sq" type="remarks">Gjatë auditimit për vitin 2020 nuk kemi identifikuar mangësi të tilla</quote>
+          <quote l="en" type="description" />
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline" />
+          <quote l="en" type="outcome">Implemented</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description" />
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline" />
+          <quote l="sr" type="outcome">Sproveden</quote>
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="I zbatuar" nr="1" note="Auditimi i Komisionit të Pavarur për Miniera dhe Minerale -2019 2019" date="" />
+            <assessment status="I zbatuar" nr="2" note="Auditimi i Komisionit të Pavarur për Miniera dhe Minerale 2020" date="2021-06-15" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="11933" riskevaluation="Entity" risk="" repeated="D" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Kryetari i Bordit me qëllim të ngritjes së efektivitetit të inspektimeve, të ndërmerr veprime për të përmirësuar bashkëpunimin mes sektorit të inspektoratit, Policisë së Kosovës, Agjencisë për administrim dhe sekuestrim të pronës dhe Inspektoratit Komunal, për të pamundësuar ushtrimin e aktiviteteve në mënyrë ilegale apo në mungesë të lejeve përkatëse. </quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline" />
+          <quote l="sq" type="outcome">I zbatuar</quote>
+          <quote l="sq" type="remarks">Gjatë auditimit për vitin 2020 nuk kemi identifikuar mangësi të tilla</quote>
+          <quote l="en" type="description" />
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline" />
+          <quote l="en" type="outcome">Implemented</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description" />
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline" />
+          <quote l="sr" type="outcome">Sproveden</quote>
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="I zbatuar" nr="1" note="Auditimi i Komisionit të Pavarur për Miniera dhe Minerale -2019 2019" date="" />
+            <assessment status="I zbatuar" nr="2" note="Auditimi i Komisionit të Pavarur për Miniera dhe Minerale 2020" date="2021-06-15" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="11934" riskevaluation="Entity" risk="" repeated="D" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Kryetari i Bordit duhet të siguroj se para zhvillimit të çdo procedure të rekrutimit apo avancimit, pozitat në fjalë të jenë të planifikuara në planin e personelit, të jenë të parapara me Strukturën Organizative, si dhe të sigurohen fondet e duhura buxhetore</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline" />
+          <quote l="sq" type="outcome">I zbatuar</quote>
+          <quote l="sq" type="remarks">Gjatë auditimit për vitin 2020 nuk kemi identifikuar mangësi të tilla</quote>
+          <quote l="en" type="description" />
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline" />
+          <quote l="en" type="outcome">Implemented</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description" />
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline" />
+          <quote l="sr" type="outcome">Sproveden</quote>
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="I zbatuar" nr="1" note="Auditimi i Komisionit të Pavarur për Miniera dhe Minerale -2019 2019" date="" />
+            <assessment status="I zbatuar" nr="2" note="Auditimi i Komisionit të Pavarur për Miniera dhe Minerale 2020" date="2021-06-15" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="11935" riskevaluation="Entity" risk="" repeated="D" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Kryetari i Bordit duhet të sigurojë një monitorim më efikas të procesit të menaxhimit të llogarive të arkëtueshme, të parandaloj rritjen e vazhdueshme të tyre, si dhe të ndërmerren veprime shtesë, përfshirë edhe revokimin e licencave në rast të mospagesës së detyrimeve nga ana e debitorëve.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline" />
+          <quote l="sq" type="outcome">Nuk është i aplikueshëm më</quote>
+          <quote l="sq" type="remarks">KPMM kishte arritur marrëveshje me një numër të konsiderueshëm të kompanive për programimin e borxhit (pagesë e borxhit me këste) dhe në rastet kur kompanitë nuk i janë përmbajtur kushteve të marrëveshjes KPMM ka bërë njoftimet për dështim dhe ka aplikuar interesin në mënyrë retroaktive për tërë vitin.</quote>
+          <quote l="en" type="description" />
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline" />
+          <quote l="en" type="outcome">No longer applicable</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description" />
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline" />
+          <quote l="sr" type="outcome">Nije više primenljiv </quote>
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="Nuk është i aplikueshëm më" nr="1" note="Auditimi i Komisionit të Pavarur për Miniera dhe Minerale -2019 2019" date="" />
+            <assessment status="Nuk është i aplikueshëm më" nr="2" note="Auditimi i Komisionit të Pavarur për Miniera dhe Minerale 2020" date="2021-06-15" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="11936" riskevaluation="Entity" risk="" repeated="D" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Kryetari i Bordit duhet të ndërmerr të gjitha masat e nevojshme për të forcuar kontrollet në këto procese. Më tej, të sigurojë se vlera e saktë e obligimeve prezantohet në PVF dhe në pajtueshmëri me kërkesat ligjore.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline" />
+          <quote l="sq" type="outcome">I zbatuar</quote>
+          <quote l="sq" type="remarks">Gjatë auditimit për vitin 2020 nuk kemi identifikuar mangësi të tilla</quote>
+          <quote l="en" type="description" />
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline" />
+          <quote l="en" type="outcome">Implemented</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description" />
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline" />
+          <quote l="sr" type="outcome">Sproveden</quote>
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="I zbatuar" nr="1" note="Auditimi i Komisionit të Pavarur për Miniera dhe Minerale -2019 2019" date="" />
+            <assessment status="I zbatuar" nr="2" note="Auditimi i Komisionit të Pavarur për Miniera dhe Minerale 2020" date="2021-06-15" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="11952" riskevaluation="Entity" risk="" repeated="D" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Kryetari i Bordit  duhet të sigurojë se paratë publike të destinuara për menaxhim të pandemisë shpenzohen në përputhje me nevojat reale të OB-së dhe në harmoni me kërkesat e legjislacionit në fuqi.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline" />
+          <quote l="sq" type="outcome" />
+          <quote l="sq" type="remarks" />
+          <quote l="en" type="description">Kryetari i Bordit  duhet të sigurojë se paratë publike të destinuara për menaxhim të pandemisë shpenzohen në përputhje me nevojat reale të OB-së dhe në harmoni me kërkesat e legjislacionit në fuqi.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline" />
+          <quote l="en" type="outcome" />
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Kryetari i Bordit  duhet të sigurojë se paratë publike të destinuara për menaxhim të pandemisë shpenzohen në përputhje me nevojat reale të OB-së dhe në harmoni me kërkesat e legjislacionit në fuqi.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline" />
+          <quote l="sr" type="outcome" />
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="" nr="1" note="Auditimi i Komisionit të Pavarur për Miniera dhe Minerale 2020" date="2021-06-15" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="12605" riskevaluation="Entity" risk="" repeated="D" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Kryetari i Bordit duhet të sigurojë se pagesa e obligimeve të bëhet brenda afateve të përcaktuar sipas legjislacionit në fuqi.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline" />
+          <quote l="sq" type="outcome" />
+          <quote l="sq" type="remarks" />
+          <quote l="en" type="description">Kryetari i Bordit duhet të sigurojë se pagesa e obligimeve të bëhet brenda afateve të përcaktuar sipas legjislacionit në fuqi.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline" />
+          <quote l="en" type="outcome" />
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Kryetari i Bordit duhet të sigurojë se pagesa e obligimeve të bëhet brenda afateve të përcaktuar sipas legjislacionit në fuqi.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline" />
+          <quote l="sr" type="outcome" />
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="" nr="1" note="Auditimi i Komisionit të Pavarur për Miniera dhe Minerale 2020" date="2021-06-15" />
+          </monitoring>
+        </Recommendation>
+      </Recommendations>
+    </Audit>
+    <Audit>
+      <About id="6692" date="2021-06-10" yearCovered="2020" casesNumber="15">
+        <version id="1" />
+        <title>
+          <tx l="sq" nm="Auditimi i Postës së Kosovës, sh.a." descriptionfile="https://www.zka-rks.org/wp-content/uploads/2021/06/RaportiAuditimit_Posta_2020_Shqip.pdf" />
+          <tx l="en" nm="Audit of Posta e Kosovës, sh.a" descriptionfile="https://www.zka-rks.org/wp-content/uploads/2021/06/RaportiAuditimit_Posta_2020_Eng.pdf" />
+          <tx l="sr" nm="Revizija javnog poduzeća Posta e Kosovës, sh.a" descriptionfile="https://www.zka-rks.org/wp-content/uploads/2021/06/RaportiAuditimit_Posta_2020_Ser.pdf" />
+        </title>
+      </About>
+      <Background>
+        <ak l="sq">Tekst i paracaktuar për sfond</ak>
+        <ak l="en">Predefined text for background</ak>
+        <ak l="sr">Predefinirani tekst za pozadinu</ak>
+      </Background>
+      <Scope>
+        <ak l="sq">Ndermarrja Publike Qendrore " Posta e Kosovës" sh.a.</ak>
+        <ak l="en"></ak>
+        <ak l="sr"></ak>
+      </Scope>
+      <Cases />
+      <Recommendations>
+        <Recommendation nr="10089" riskevaluation="Sector" risk="Compliance" repeated="B" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve të sigurojë, se janë marrë veprime korrigjuese në lidhje me ndryshimet e nevojshme në regjistrin e pasurisë sipas gjendjes faktike dhe ligjore të konstatuar. Për më tepër, të sigurojë zbatimin e rregullt të harmonizimeve në mes të raporteve të komisionit për inventarizim, përditësimeve të kontesteve nga zyra ligjore me regjistrin e pasurisë në kontabilitet. Informatat e detajuara lidhur me pronat e uzurpuara të shpalosen në pasqyrën e shënimeve shpjeguese.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2021-02-28</quote>
+          <quote l="sq" type="outcome">Nuk ka filluar zbatimi</quote>
+          <quote l="sq" type="remarks">Nuk janë ndërmarrë veprime për largimin e pronave të uzurpuara nga regjistri i aseteve fikse dhe prezantimi i tyre tek shpalosjet .</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve të sigurojë, se janë marrë veprime korrigjuese në lidhje me ndryshimet e nevojshme në regjistrin e pasurisë sipas gjendjes faktike dhe ligjore të konstatuar. Për më tepër, të sigurojë zbatimin e rregullt të harmonizimeve në mes të raporteve të komisionit për inventarizim, përditësimeve të kontesteve nga zyra ligjore me regjistrin e pasurisë në kontabilitet. Informatat e detajuara lidhur me pronat e uzurpuara të shpalosen në pasqyrën e shënimeve shpjeguese.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2021-02-28</quote>
+          <quote l="en" type="outcome">Not started Implementation</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve të sigurojë, se janë marrë veprime korrigjuese në lidhje me ndryshimet e nevojshme në regjistrin e pasurisë sipas gjendjes faktike dhe ligjore të konstatuar. Për më tepër, të sigurojë zbatimin e rregullt të harmonizimeve në mes të raporteve të komisionit për inventarizim, përditësimeve të kontesteve nga zyra ligjore me regjistrin e pasurisë në kontabilitet. Informatat e detajuara lidhur me pronat e uzurpuara të shpalosen në pasqyrën e shënimeve shpjeguese.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2021-02-28</quote>
+          <quote l="sr" type="outcome">Nije počela primena</quote>
+          <quote l="sr" type="remarks" />
+          <findings>
+            <finding nr="Mbivlerësim i Regjistrit të Pasurive Fikse" />
+          </findings>
+          <monitoring>
+            <assessment status="Nuk ka filluar zbatimi" nr="1" note="Auditimi i Postës së Kosovës, sh.a. -2019 2019" date="" />
+            <assessment status="Nuk ka filluar zbatimi" nr="2" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="10099" riskevaluation="Sector" risk="Accountability" repeated="B" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve të sigurojë, se janë ndërmarrë veprimet e nevojshme dhe të dhënat kontabël para përgatitjes se Pasqyrave financiare janë harmonizuar me kreditorët.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2020-12-31</quote>
+          <quote l="sq" type="outcome">Pjesërisht i zbatuar</quote>
+          <quote l="sq" type="remarks">Pjesërisht janë ndërmarrë veprimet e nevojshme për harmonzimin e gjendjes së obglimive ndaj adminisratës tatimore dhe bankës ndërmjetësuese.</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve të sigurojë, se janë ndërmarrë veprimet e nevojshme dhe dhënatkontabël para përgatitjes se Pasqyrave financiare janë harmonizuar me kreditorët.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2020-12-31</quote>
+          <quote l="en" type="outcome">Partially implemented</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve të sigurojë, se janë ndërmarrë veprimet e nevojshme dhe dhënatkontabël para përgatitjes se Pasqyrave financiare janë harmonizuar me kreditorët.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2020-12-31</quote>
+          <quote l="sr" type="outcome">Delimično sproveden</quote>
+          <quote l="sr" type="remarks" />
+          <findings>
+            <finding nr="Diferenca ndërmjet shumave në librat kontabël dhe konfirmimeve nga kreditorët&#xD;&#xA;" />
+          </findings>
+          <monitoring>
+            <assessment status="Nuk ka filluar zbatimi" nr="1" note="Auditimi i Postës së Kosovës, sh.a. -2019 2019" date="" />
+            <assessment status="Pjesërisht i zbatuar" nr="2" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="10102" riskevaluation="Sector" risk="Accountability" repeated="B" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve të sigurojë, se gabimet e identifikuara në PFV-të tjera të cilat reflektojnë në Pasqyrën e Rrjedhës së Parasë të korrigjohen para përgatitjes së pasqyrave të vitit aktual në mënyrë që shifrat krahasuese në mes të viteve të jenë të sakta dhe të plota. </quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2020-12-31</quote>
+          <quote l="sq" type="outcome">Nuk ka filluar zbatimi</quote>
+          <quote l="sq" type="remarks">Nuk janë ndërmarrë veprime për korrigjimet retrospektive të gabimeve dhe ri deklarimet e pasqyrave financiare të korrigjuara.</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve të sigurojë, se gabimet e identifikuara në PFV-të tjera të cilat reflektojnë në Pasqyrën e Rrjedhës së Parasë të korrigjohen para përgatitjes së pasqyrave të vitit aktual në mënyrë që shifrat krahasuese në mes të viteve të jenë të sakta dhe të plota. </quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2020-12-31</quote>
+          <quote l="en" type="outcome">Not started Implementation</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve të sigurojë, se gabimet e identifikuara në PFV-të tjera të cilat reflektojnë në Pasqyrën e Rrjedhës së Parasë të korrigjohen para përgatitjes së pasqyrave të vitit aktual në mënyrë që shifrat krahasuese në mes të viteve të jenë të sakta dhe të plota. </quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2020-12-31</quote>
+          <quote l="sr" type="outcome">Nije počela primena</quote>
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="Nuk ka filluar zbatimi" nr="1" note="Auditimi i Postës së Kosovës, sh.a. -2019 2019" date="" />
+            <assessment status="Nuk ka filluar zbatimi" nr="2" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="10104" riskevaluation="Sector" risk="Accountability" repeated="B" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve të sigurojë, se janë bërë korrigjimet e gabimeve të identifikuara tek pasqyra e ndryshimeve në ekuitet, për të siguruar një pamje të drejtë dhe të vërtetë të tyre</quote>
+          <quote l="sq" type="aplan">Zbatimi i rekomandimit deri me 31.12.2020.</quote>
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2020-12-31</quote>
+          <quote l="sq" type="outcome">Nuk ka filluar zbatimi</quote>
+          <quote l="sq" type="remarks">Nuk janë ndërmarrë veprime për korrigjimet retrospektive të gabimeve dhe ri deklarimet e pasqyrave financiare të korrigjuara.</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve të sigurojë, se janë bërë korrigjimet e gabimeve të identifikuara tek pasqyra e ndryshimeve në ekuitet, për të siguruar një pamje të drejtë dhe të vërtetë të tyre</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2020-12-31</quote>
+          <quote l="en" type="outcome">Not started Implementation</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve të sigurojë, se janë bërë korrigjimet e gabimeve të identifikuara tek pasqyra e ndryshimeve në ekuitet, për të siguruar një pamje të drejtë dhe të vërtetë të tyre</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2020-12-31</quote>
+          <quote l="sr" type="outcome">Nije počela primena</quote>
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="Nuk ka filluar zbatimi" nr="1" note="Auditimi i Postës së Kosovës, sh.a. -2019 2019" date="" />
+            <assessment status="Nuk ka filluar zbatimi" nr="2" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="10105" riskevaluation="Sector" risk="Accountability" repeated="B" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve të sigurojë, që shënimet shpjeguese përmbajnë parimet bazë që përdoren për hartimin e pasqyrave financiare dhe së informacionet mbi përbërjen e zërave të pasqyrave, janë dhënë sipas kërkesave të standardeve të kontabilitetit.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2021-02-28</quote>
+          <quote l="sq" type="outcome">Nuk ka filluar zbatimi</quote>
+          <quote l="sq" type="remarks">Nuk janë ndërmarrë veprime për në lidhje më shpalosjet e duhura kur është identifikuar një pasiguri materiale.</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve të sigurojë, që shënimet shpjeguese përmbajnë parimet bazë që përdoren për hartimin e pasqyrave financiare dhe së informacionet mbi përbërjen e zërave të pasqyrave, janë dhënë sipas kërkesave të standardeve të kontabilitetit.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2021-02-28</quote>
+          <quote l="en" type="outcome">Not started Implementation</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve të sigurojë, që shënimet shpjeguese përmbajnë parimet bazë që përdoren për hartimin e pasqyrave financiare dhe së informacionet mbi përbërjen e zërave të pasqyrave, janë dhënë sipas kërkesave të standardeve të kontabilitetit.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2021-02-28</quote>
+          <quote l="sr" type="outcome">Nije počela primena</quote>
+          <quote l="sr" type="remarks" />
+          <findings>
+            <finding nr="Mos dhënia e informacioneve të duhura shpjeguese për një pasiguri materiale" />
+          </findings>
+          <monitoring>
+            <assessment status="Nuk ka filluar zbatimi" nr="1" note="Auditimi i Postës së Kosovës, sh.a. -2019 2019" date="" />
+            <assessment status="Nuk ka filluar zbatimi" nr="2" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="12000" riskevaluation="Sector" risk="" repeated="B" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve të sigurojë, që shënimet shpjeguese përmbajnë parimet bazë që përdoren për hartimin e pasqyrave financiare dhe së informacionet mbi përbërjen e zërave të pasqyrave, janë dhënë sipas kërkesave të standardeve të kontabilitetit.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2021-02-15</quote>
+          <quote l="sq" type="outcome">Nuk ka filluar zbatimi</quote>
+          <quote l="sq" type="remarks">Nuk janë ndërmarrë veprime për në lidhje më shpalosjet e duhura kur është identifikuar një pasiguri materiale.</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve të sigurojë, që shënimet shpjeguese përmbajnë parimet bazë që përdoren për hartimin e pasqyrave financiare dhe së informacionet mbi përbërjen e zërave të pasqyrave, janë dhënë sipas kërkesave të standardeve të kontabilitetit.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2021-02-15</quote>
+          <quote l="en" type="outcome">Not started Implementation</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve të sigurojë, që shënimet shpjeguese përmbajnë parimet bazë që përdoren për hartimin e pasqyrave financiare dhe së informacionet mbi përbërjen e zërave të pasqyrave, janë dhënë sipas kërkesave të standardeve të kontabilitetit.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2021-02-15</quote>
+          <quote l="sr" type="outcome">Nije počela primena</quote>
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="Nuk ka filluar zbatimi" nr="1" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="12024" riskevaluation="Sector" risk="" repeated="B" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve të sigurojë, se gabimet e identifikuara në pasqyrat financiare tjera të cilat reflektojnë në pasqyrën e rrjedhës së parasë, të korrigjohen para përgatitjes së pasqyrave të vitit aktual në mënyrë që shifrat krahasuese në mes të viteve të jenë të sakta dhe të plota. </quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2021-12-31</quote>
+          <quote l="sq" type="outcome">Nuk ka filluar zbatimi</quote>
+          <quote l="sq" type="remarks">Nuk janë ndërmarrë veprime për korrigjimet retrospektive të gabimeve dhe ri deklarimet e pasqyrave financiare të korrigjuara.</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve të sigurojë, se gabimet e identifikuara në pasqyrat financiare tjera të cilat reflektojnë në pasqyrën e rrjedhës së parasë, të korrigjohen para përgatitjes së pasqyrave të vitit aktual në mënyrë që shifrat krahasuese në mes të viteve të jenë të sakta dhe të plota. </quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2021-12-31</quote>
+          <quote l="en" type="outcome">Not started Implementation</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve të sigurojë, se gabimet e identifikuara në pasqyrat financiare tjera të cilat reflektojnë në pasqyrën e rrjedhës së parasë, të korrigjohen para përgatitjes së pasqyrave të vitit aktual në mënyrë që shifrat krahasuese në mes të viteve të jenë të sakta dhe të plota. </quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2021-12-31</quote>
+          <quote l="sr" type="outcome">Nije počela primena</quote>
+          <quote l="sr" type="remarks" />
+          <findings>
+            <finding nr="Prezantimi i pasaktë i pasqyrës së rrjedhës se parasë " />
+          </findings>
+          <monitoring>
+            <assessment status="Nuk ka filluar zbatimi" nr="1" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="12294" riskevaluation="Sector" risk="" repeated="B" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve të sigurojë, se janë ndërmarrë veprimet e nevojshme dhe të dhënat kontabël para përgatitjes se Pasqyrave financiare janë harmonizuar me kreditorët.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2021-12-31</quote>
+          <quote l="sq" type="outcome">Pjesërisht i zbatuar</quote>
+          <quote l="sq" type="remarks">Do të kontrollohet gjendja e  llogarive te ATK- së në mënyrë që të behët harmonizimi me pagesat tona si dhe kompensimin e debi kredive.</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve të sigurojë, se janë ndërmarrë veprimet e nevojshme dhe dhënat kontabël para përgatitjes se Pasqyrave financiare janë harmonizuar me kreditorët.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2021-12-31</quote>
+          <quote l="en" type="outcome">Partially implemented</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve të sigurojë, se janë ndërmarrë veprimet e nevojshme dhe dhënat kontabël para përgatitjes se Pasqyrave financiare janë harmonizuar me kreditorët.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2021-12-31</quote>
+          <quote l="sr" type="outcome">Delimično sproveden</quote>
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="Pjesërisht i zbatuar" nr="1" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="12328" riskevaluation="Sector" risk="" repeated="A" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve të sigurojë, zbatim të plotë të standardeve të kontabilitetit dhe raportimit financiar në përgatitjen e pasqyrave financiare, duke përcaktuar një datë uniforme të prerjes dhe dhënies së informacioneve shpjeguese për transaksionet që nuk kanë mundur të regjistrohen në vitin përkatës. </quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline" />
+          <quote l="sq" type="outcome" />
+          <quote l="sq" type="remarks" />
+          <quote l="en" type="description">Bordi i Drejtorëve të sigurojë, zbatim të plotë të standardeve të kontabilitetit dhe raportimit financiar në përgatitjen e pasqyrave financiare, duke përcaktuar një datë uniforme të prerjes dhe dhënies së informacioneve shpjeguese për transaksionet që nuk kanë mundur të regjistrohen në vitin përkatës. </quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline" />
+          <quote l="en" type="outcome" />
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve të sigurojë, zbatim të plotë të standardeve të kontabilitetit dhe raportimit financiar në përgatitjen e pasqyrave financiare, duke përcaktuar një datë uniforme të prerjes dhe dhënies së informacioneve shpjeguese për transaksionet që nuk kanë mundur të regjistrohen në vitin përkatës. </quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline" />
+          <quote l="sr" type="outcome" />
+          <quote l="sr" type="remarks" />
+          <findings>
+            <finding nr="Mos harmonizimet e bilanceve me Postat ndërkombëtare brenda periudhës raportuese dhe mos dhënia e shënimeve shpjeguese për shumat e mbetura të pa korrigjuara pas periudhës së raportimit" />
+          </findings>
+          <monitoring>
+            <assessment status="" nr="1" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="12329" riskevaluation="Sector" risk="Compliance" repeated="B" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve të sigurojë, se janë marrë veprime korrigjuese në lidhje me ndryshimet e nevojshme në regjistrin e pasurisë sipas gjendjes faktike dhe ligjore të konstatuar. Për më tepër, të sigurojë zbatimin e rregullt të harmonizimeve në mes të raporteve të komisionit për inventarizim, përditësimeve të kontesteve nga zyra ligjore me regjistrin e pasurisë në kontabilitet. Informatat e detajuara lidhur me pronat e uzurpuara të shpalosen në pasqyrën e shënimeve shpjeguese.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2021-02-28</quote>
+          <quote l="sq" type="outcome">Nuk ka filluar zbatimi</quote>
+          <quote l="sq" type="remarks">Nuk janë ndërmarrë veprime për largimin e pronave të uzurpuara nga regjistri i aseteve fikse dhe prezantimi i tyre tek shpalosjet.</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve të sigurojë, se janë marrë veprime korrigjuese në lidhje me ndryshimet e nevojshme në regjistrin e pasurisë sipas gjendjes faktike dhe ligjore të konstatuar. Për më tepër, të sigurojë zbatimin e rregullt të harmonizimeve në mes të raporteve të komisionit për inventarizim, përditësimeve të kontesteve nga zyra ligjore me regjistrin e pasurisë në kontabilitet. Informatat e detajuara lidhur me pronat e uzurpuara të shpalosen në pasqyrën e shënimeve shpjeguese.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2021-02-28</quote>
+          <quote l="en" type="outcome">Not started Implementation</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve të sigurojë, se janë marrë veprime korrigjuese në lidhje me ndryshimet e nevojshme në regjistrin e pasurisë sipas gjendjes faktike dhe ligjore të konstatuar. Për më tepër, të sigurojë zbatimin e rregullt të harmonizimeve në mes të raporteve të komisionit për inventarizim, përditësimeve të kontesteve nga zyra ligjore me regjistrin e pasurisë në kontabilitet. Informatat e detajuara lidhur me pronat e uzurpuara të shpalosen në pasqyrën e shënimeve shpjeguese.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2021-02-28</quote>
+          <quote l="sr" type="outcome">Nije počela primena</quote>
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="Nuk ka filluar zbatimi" nr="1" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="12331" riskevaluation="Sector" risk="Compliance" repeated="C" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve duhet të autorizojë hartimin e rregulloreve në fushën e të hyrave duke përcaktuar procedura dhe përgjegjësi të qarta për menaxhimin e secilit lloj të të hyrave.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2020-09-30</quote>
+          <quote l="sq" type="outcome">Pjesërisht i zbatuar</quote>
+          <quote l="sq" type="remarks">Është caktuar komisioni nga KE me kryesues nga shitja në lidhje më hartimin e rregulloreve për menaxhimin e të hyrave. Komisioni  është në ende në proces të hartimit të këtyre rregulloreve</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve duhet të autorizojë hartimin e rregulloreve në fushën e të hyrave duke përcaktuar procedura dhe përgjegjësi të qarta për menaxhimin e secilit lloj të të hyrave.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2020-09-30</quote>
+          <quote l="en" type="outcome">Partially implemented</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve duhet të autorizojë hartimin e rregulloreve në fushën e të hyrave duke përcaktuar procedura dhe përgjegjësi të qarta për menaxhimin e secilit lloj të të hyrave.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2020-09-30</quote>
+          <quote l="sr" type="outcome">Delimično sproveden</quote>
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="Pjesërisht i zbatuar" nr="1" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="12327" riskevaluation="Sector" risk="" repeated="B" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve të sigurojë, se janë bërë korrigjimet e gabimeve të identifikuara tek pasqyra e ndryshimeve në ekuitet, për të siguruar një pamje të drejtë dhe të vërtetë të saj.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2021-12-31</quote>
+          <quote l="sq" type="outcome" />
+          <quote l="sq" type="remarks">Nuk janë ndërmarrë veprime për korrigjimet retrospektive të gabimeve dhe ri deklarimet e pasqyrave financiare të korrigjuara.</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve të sigurojë, se janë bërë korrigjimet e gabimeve të identifikuara tek pasqyra e ndryshimeve në ekuitet, për të siguruar një pamje të drejtë dhe të vërtetë të saj.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2021-12-31</quote>
+          <quote l="en" type="outcome" />
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve të sigurojë, se janë bërë korrigjimet e gabimeve të identifikuara tek pasqyra e ndryshimeve në ekuitet, për të siguruar një pamje të drejtë dhe të vërtetë të saj.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2021-12-31</quote>
+          <quote l="sr" type="outcome" />
+          <quote l="sr" type="remarks" />
+          <findings>
+            <finding nr="Prezantim i pasaktë i pasqyrës së ndryshimeve në ekuitet " />
+          </findings>
+          <monitoring>
+            <assessment status="" nr="1" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="10141" riskevaluation="Sector" risk="Compliance" repeated="B" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve të sigurojë, se janë ndërmarrë të gjitha veprimet e duhura/ligjore në mënyrë që të qartësohet statusi i pronave dhe të zgjidhen kontestet ligjore lidhur me këto pasuri.</quote>
+          <quote l="sq" type="aplan">Sipas p&amp;euml;rgjigjes se Menaxhmentit afati p&amp;euml;r zbatimin e k&amp;euml;tij rekomandimi varet nga vendimmarrja e organeve gjyq&amp;euml;sore.</quote>
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2021-02-28</quote>
+          <quote l="sq" type="outcome">Nuk ka filluar zbatimi</quote>
+          <quote l="sq" type="remarks">Nuk ka asnjë progres nga viti i kaluar lidhur më çështjet e definimit të pronave të paluajtshme.</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve të sigurojë, se janë ndërmarrë të gjitha veprimet e duhura/ligjore në mënyrë që të qartësohet statusi i pronave dhe të zgjidhen kontestet ligjore lidhur me këto pasuri.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2021-02-28</quote>
+          <quote l="en" type="outcome">Not started Implementation</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve të sigurojë, se janë ndërmarrë të gjitha veprimet e duhura/ligjore në mënyrë që të qartësohet statusi i pronave dhe të zgjidhen kontestet ligjore lidhur me këto pasuri.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2021-02-28</quote>
+          <quote l="sr" type="outcome">Nije počela primena</quote>
+          <quote l="sr" type="remarks" />
+          <findings>
+            <finding nr="Pronësia e pa definuar e pasurive fikse&#xD;&#xA;" />
+          </findings>
+          <monitoring>
+            <assessment status="Nuk ka filluar zbatimi" nr="1" note="Auditimi i Postës së Kosovës, sh.a. -2019 2019" date="" />
+            <assessment status="Nuk ka filluar zbatimi" nr="2" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="10150" riskevaluation="Sector" risk="Compliance" repeated="C" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve duhet të autorizojë hartimin e rregulloreve në fushën e të hyrave duke përcaktuar procedura dhe përgjegjësi të qarta për menaxhimin e secilit lloj të të hyrave.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2020-09-30</quote>
+          <quote l="sq" type="outcome">Pjesërisht i zbatuar</quote>
+          <quote l="sq" type="remarks">Kompania ka caktuar një komision në lidhje më hartimin e rregulloreve për menaxhimin e të hyrave. Komisioni  është në ende në proces të hartimit të këtyre rregulloreve.</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve duhet të autorizojë hartimin e rregulloreve në fushën e të hyrave duke përcaktuar procedura dhe përgjegjësi të qarta për menaxhimin e secilit lloj të të hyrave.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2020-09-30</quote>
+          <quote l="en" type="outcome">Partially implemented</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve duhet të autorizojë hartimin e rregulloreve në fushën e të hyrave duke përcaktuar procedura dhe përgjegjësi të qarta për menaxhimin e secilit lloj të të hyrave.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2020-09-30</quote>
+          <quote l="sr" type="outcome">Delimično sproveden</quote>
+          <quote l="sr" type="remarks" />
+          <findings>
+            <finding nr="Mungesa e rregulloreve për menaxhimin e të hyrave&#xD;&#xA;" />
+          </findings>
+          <monitoring>
+            <assessment status="Nuk ka filluar zbatimi" nr="1" note="Auditimi i Postës së Kosovës, sh.a. -2019 2019" date="" />
+            <assessment status="Pjesërisht i zbatuar" nr="2" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+        <Recommendation nr="11997" riskevaluation="Sector" risk="" repeated="B" priority="" category="" accepted="0">
+          <category l="sq" nm="" />
+          <category l="en" nm="" />
+          <category l="sr" nm="" />
+          <quote l="sq" type="description">Bordi i Drejtorëve të sigurojë, se janë ndërmarrë të gjitha veprimet e duhura/ligjore në mënyrë që të qartësohet statusi i pronave dhe të zgjidhen kontestet ligjore lidhur me këto pasuri.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline">2021-12-31</quote>
+          <quote l="sq" type="outcome">Nuk ka filluar zbatimi</quote>
+          <quote l="sq" type="remarks">Nuk ka asnjë progres nga viti i kaluar lidhur më çështjet e definimit të pronave të paluajtshme.
+
+</quote>
+          <quote l="en" type="description">Bordi i Drejtorëve të sigurojë, se janë ndërmarrë të gjitha veprimet e duhura/ligjore në mënyrë që të qartësohet statusi i pronave dhe të zgjidhen kontestet ligjore lidhur me këto pasuri.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline">2021-12-31</quote>
+          <quote l="en" type="outcome">Not started Implementation</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Bordi i Drejtorëve të sigurojë, se janë ndërmarrë të gjitha veprimet e duhura/ligjore në mënyrë që të qartësohet statusi i pronave dhe të zgjidhen kontestet ligjore lidhur me këto pasuri.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline">2021-12-31</quote>
+          <quote l="sr" type="outcome">Nije počela primena</quote>
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="Nuk ka filluar zbatimi" nr="1" note="Auditimi i Postës së Kosovës, sh.a. 2020" date="2021-06-10" />
+          </monitoring>
+        </Recommendation>
+      </Recommendations>
+    </Audit>
+  </audits>
+</portfolio>

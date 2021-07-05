@@ -3,7 +3,7 @@
 <portfolio id="Portfolio03" description="Portfolio test 03" coverage="year of 2019" org="National Audit Office of Kosovo" publish="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PortfolioSchema.xsd">
 	<audits>
 		<Audit>
-			<About id="ATK-SIGTAS_01" descriptionfile="">
+			<About id="ATK-SIGTAS_01" descriptionfile="" year="2020" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Tax administration"/>
@@ -461,7 +461,7 @@ In addition, the lack of reviewing user’s access rights on a periodic basis in
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="GJILAN2019_01" descriptionfile="">
+			<About id="GJILAN2019_01" descriptionfile="" year="2020" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="AUDIT ON THE ANNUAL FINANCIAL STATEMENTS OF GJILAN MUNICIPALITY " />
@@ -580,7 +580,7 @@ We found that 19 invoices were protocolled after they were paid, whilst 14 invoi
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="KAS_01" descriptionfile="">
+			<About id="KAS_01" descriptionfile="" year="2018" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Information Technology on Kosovo Agency of Statistics"/>
@@ -932,7 +932,7 @@ A data controller is any natural or legal person from the public or private sect
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="ATK-SIGTAS_02" descriptionfile="">
+			<About id="ATK-SIGTAS_02" descriptionfile="" year="2017" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 02 Tax administration"/>
@@ -1390,7 +1390,7 @@ In addition, the lack of reviewing user’s access rights on a periodic basis in
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="GJILAN2019_02" descriptionfile="">
+			<About id="GJILAN2019_02" descriptionfile="" year="2020" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 02 AUDIT ON THE ANNUAL FINANCIAL STATEMENTS OF GJILAN MUNICIPALITY " />
@@ -1509,7 +1509,7 @@ We found that 19 invoices were protocolled after they were paid, whilst 14 invoi
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="KAS_02" descriptionfile="">
+			<About id="KAS_02" descriptionfile="" year="2020" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 02 Information Technology on Kosovo Agency of Statistics"/>
@@ -1861,7 +1861,7 @@ A data controller is any natural or legal person from the public or private sect
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="ATK-SIGTAS_03" descriptionfile="">
+			<About id="ATK-SIGTAS_03" descriptionfile="" year="2020" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 03 Tax administration"/>
@@ -2319,7 +2319,7 @@ In addition, the lack of reviewing user’s access rights on a periodic basis in
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="GJILAN2019_03" descriptionfile="">
+			<About id="GJILAN2019_03" descriptionfile="" year="2021" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 03 AUDIT ON THE ANNUAL FINANCIAL STATEMENTS OF GJILAN MUNICIPALITY " />
@@ -2438,7 +2438,7 @@ We found that 19 invoices were protocolled after they were paid, whilst 14 invoi
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="KAS_03" descriptionfile="">
+			<About id="KAS_03" descriptionfile="" year="2019" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 03 Information Technology on Kosovo Agency of Statistics"/>
@@ -2790,7 +2790,7 @@ A data controller is any natural or legal person from the public or private sect
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="ATK-SIGTAS_04" descriptionfile="">
+			<About id="ATK-SIGTAS_04" descriptionfile="" year="2020" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 04 Tax administration"/>
@@ -3248,7 +3248,7 @@ In addition, the lack of reviewing user’s access rights on a periodic basis in
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="GJILAN2019_04" descriptionfile="">
+			<About id="GJILAN2019_04" descriptionfile="" year="2021" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 04 AUDIT ON THE ANNUAL FINANCIAL STATEMENTS OF GJILAN MUNICIPALITY " />
@@ -3367,7 +3367,7 @@ We found that 19 invoices were protocolled after they were paid, whilst 14 invoi
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="KAS_04" descriptionfile="">
+			<About id="KAS_04" descriptionfile="" year="2020" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 04 Information Technology on Kosovo Agency of Statistics"/>
@@ -3719,7 +3719,7 @@ A data controller is any natural or legal person from the public or private sect
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="ATK-SIGTAS_05" descriptionfile="">
+			<About id="ATK-SIGTAS_05" descriptionfile="" year="2020" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 05 Tax administration"/>
@@ -4177,7 +4177,7 @@ In addition, the lack of reviewing user’s access rights on a periodic basis in
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="GJILAN2019_05" descriptionfile="">
+			<About id="GJILAN2019_05" descriptionfile="" year="2020" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 05 AUDIT ON THE ANNUAL FINANCIAL STATEMENTS OF GJILAN MUNICIPALITY " />
@@ -4296,7 +4296,7 @@ We found that 19 invoices were protocolled after they were paid, whilst 14 invoi
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="KAS_05" descriptionfile="">
+			<About id="KAS_05" descriptionfile="" year="2020" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 05 Information Technology on Kosovo Agency of Statistics"/>
@@ -4648,7 +4648,7 @@ A data controller is any natural or legal person from the public or private sect
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="ATK-SIGTAS_06" descriptionfile="">
+			<About id="ATK-SIGTAS_06" descriptionfile="" year="2020" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 06 Tax administration"/>
@@ -5106,7 +5106,7 @@ In addition, the lack of reviewing user’s access rights on a periodic basis in
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="GJILAN2019_06" descriptionfile="">
+			<About id="GJILAN2019_06" descriptionfile="" year="2020" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 06 AUDIT ON THE ANNUAL FINANCIAL STATEMENTS OF GJILAN MUNICIPALITY " />
@@ -5225,7 +5225,7 @@ We found that 19 invoices were protocolled after they were paid, whilst 14 invoi
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="KAS_06" descriptionfile="">
+			<About id="KAS_06" descriptionfile="" year="2018" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 06 Information Technology on Kosovo Agency of Statistics"/>
@@ -5577,7 +5577,7 @@ A data controller is any natural or legal person from the public or private sect
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="ATK-SIGTAS_07" descriptionfile="">
+			<About id="ATK-SIGTAS_07" descriptionfile="" year="2017" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 07 Tax administration"/>
@@ -6035,7 +6035,7 @@ In addition, the lack of reviewing user’s access rights on a periodic basis in
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="GJILAN2019_07" descriptionfile="">
+			<About id="GJILAN2019_07" descriptionfile="" year="2016" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 06 AUDIT ON THE ANNUAL FINANCIAL STATEMENTS OF GJILAN MUNICIPALITY " />
@@ -6154,7 +6154,7 @@ We found that 19 invoices were protocolled after they were paid, whilst 14 invoi
 			</Recommendations>
 		</Audit>
 		<Audit>
-			<About id="KAS_07" descriptionfile="">
+			<About id="KAS_07" descriptionfile="" year="2020" month="01">
 				<version id="1.0" rem=""/>
 				<title>
 					<tx l="eng" nm="Test Example 06 Information Technology on Kosovo Agency of Statistics"/>
