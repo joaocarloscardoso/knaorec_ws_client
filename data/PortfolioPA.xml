@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<portfolio autoNr="2" publish="1" coverage="2019-2021">
+  <name>
+    <tx l="sq" nm="AP" description="Auditimet e Performancës" />
+    <tx l="en" nm="PA" description="Performance Audits" />
+    <tx l="sr" nm="RP" description="Revizije performance" />
+  </name>
+  <audits>
+    <Audit>
+      <About id="6713" date="2020-07-03" yearCovered="2018-2019" casesNumber="1">
+        <version id="1" />
+        <title>
+          <tx l="sq" nm="Auditimi i Financimit të OJQ-ve" descriptionfile="https://www.zka-rks.org/wp-content/uploads/2021/07/RAP_FinancimiiOJQ_Shqip.pdf" />
+          <tx l="en" nm="Auditing the Financing of NGOs" descriptionfile="https://www.zka-rks.org/wp-content/uploads/2021/07/RAP_FinancimiiOJQ_Ser.pdf" />
+          <tx l="sr" nm="Revizija finansiranja NVO" descriptionfile="" />
+        </title>
+      </About>
+      <Background>
+        <ak l="sq">1.5. Fush&amp;euml;veprimi i auditimitPjes&amp;euml; e fush&amp;euml;veprimit t&amp;euml; k&amp;euml;tij auditimi jan&amp;euml; Zyra e Kryeministrit, Ministria e Kultur&amp;euml;s Rinis&amp;euml; dhe Sportit dhe Komuna e Prishtin&amp;euml;s.K&amp;euml;to tri institucione jan&amp;euml; p&amp;euml;rzgjedhur p&amp;euml;r shkak se gjat&amp;euml; vitit 2019 n&amp;euml; nivelin qendror financuesit m&amp;euml; t&amp;euml; m&amp;euml;dhenj t&amp;euml; OJQ-ve p&amp;euml;rmes fondeve publike kan&amp;euml; qen&amp;euml; Ministria e Kultur&amp;euml;s dhe Zyra e Kryeministrit, nd&amp;euml;rkaq n&amp;euml; nivelin lokal, financuesi m&amp;euml; i madh publik i OJQ-ve ka qen&amp;euml; Komuna e Prishtin&amp;euml;s. Diagrami m&amp;euml; posht&amp;euml; tregon p&amp;euml;r vlerat e financimeve publike p&amp;euml;r OJQ t&amp;euml; k&amp;euml;tyre entiteteve gjat&amp;euml; vitit 2019.N&amp;euml;se analizojm&amp;euml; vler&amp;euml;n e p&amp;euml;rbashk&amp;euml;t t&amp;euml; financimit publik p&amp;euml;r OJQ-t&amp;euml; nga tri entitetet e paraqitura n&amp;euml; diagram, kjo vler&amp;euml; p&amp;euml;rfaq&amp;euml;son rreth 27% apo p&amp;euml;raf&amp;euml;rsisht 1/3 e financimit t&amp;euml; p&amp;euml;rgjithsh&amp;euml;m publik t&amp;euml; OJQ-ve gjat&amp;euml; vitit 2019.Zyra e Kryeministrit p&amp;euml;rve&amp;ccedil; q&amp;euml; &amp;euml;sht&amp;euml; nj&amp;euml;ra nd&amp;euml;r financueset m&amp;euml; t&amp;euml; m&amp;euml;dha publike p&amp;euml;r OJQ-t&amp;euml;, &amp;euml;sht&amp;euml; po ashtu p&amp;euml;rgjegj&amp;euml;se p&amp;euml;r monitorimin e zbatimit t&amp;euml; rregullores p&amp;euml;r kriteret, standardet dhe procedurat e financimit publik t&amp;euml; OJQ-ve nga ofruesit e financimit publik.</ak>
+        <ak l="en" />
+        <ak l="sr" />
+      </Background>
+      <Scope>
+        <ak l="sq">Zyra e Kryeministrit; MINISTRIA E KULTURËS RINISË DHE SPORTIT; Komuna e Prishtinës;</ak>
+        <ak l="en"></ak>
+        <ak l="sr"></ak>
+      </Scope>
+      <Cases />
+      <Recommendations>
+        <Recommendation nr="11954" riskevaluation="State" risk="" repeated="A" priority="" category="002" accepted="0">
+          <category l="sq" nm="Zhvillimi ekonomik " />
+          <category l="en" nm="Zhvillimi ekonomik " />
+          <category l="sr" nm="Zhvillimi ekonomik " />
+          <quote l="sq" type="description">Te zbatohet kriteri per caktimin e personave apo ekipes monitoruese varesisht nga projekti ne menyre qe te percjellet ne menyre te vazhdueshme arrtijet apo ngecejet gjate zbatimit te projektit dhe krahas kesaj te merren hapa konkret.</quote>
+          <quote l="sq" type="aplan" />
+          <quote l="sq" type="responsible" />
+          <quote l="sq" type="timeline" />
+          <quote l="sq" type="outcome">Nuk ka filluar zbatimi</quote>
+          <quote l="sq" type="remarks" />
+          <quote l="en" type="description">Te zbatohet kriteri per caktimin e personave apo ekipes monitoruese varesisht nga projekti ne menyre qe te percjellet ne menyre te vazhdueshme arrtijet apo ngecejet gjate zbatimit te projektit dhe krahas kesaj te merren hapa konkret.</quote>
+          <quote l="en" type="aplan" />
+          <quote l="en" type="responsible" />
+          <quote l="en" type="timeline" />
+          <quote l="en" type="outcome">Not started Implementation</quote>
+          <quote l="en" type="remarks" />
+          <quote l="sr" type="description">Te zbatohet kriteri per caktimin e personave apo ekipes monitoruese varesisht nga projekti ne menyre qe te percjellet ne menyre te vazhdueshme arrtijet apo ngecejet gjate zbatimit te projektit dhe krahas kesaj te merren hapa konkret.</quote>
+          <quote l="sr" type="aplan" />
+          <quote l="sr" type="responsible" />
+          <quote l="sr" type="timeline" />
+          <quote l="sr" type="outcome">Nije počela primena</quote>
+          <quote l="sr" type="remarks" />
+          <findings />
+          <monitoring>
+            <assessment status="Nuk ka filluar zbatimi" nr="1" note="Auditimi i Financimit të OJQ-ve 2020" date="2020-07-03" />
+          </monitoring>
+        </Recommendation>
+      </Recommendations>
+    </Audit>
+  </audits>
+</portfolio>

@@ -4,6 +4,26 @@
 	<xs:element name="portfolio">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element name="name">
+					<xs:annotation>
+						<xs:documentation>name of the Portfolio</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="tx" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute ref="l" use="required"/>
+									<xs:attribute ref="nm" use="required"/>
+									<xs:attribute name="description" type="xs:token">
+										<xs:annotation>
+											<xs:documentation>URL/ link for the published audit report</xs:documentation>
+										</xs:annotation>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
 				<xs:element name="audits">
 					<xs:complexType>
 						<xs:sequence>
@@ -13,9 +33,13 @@
 										<xs:element name="About">
 											<xs:complexType>
 												<xs:sequence>
-													<xs:element name="version" maxOccurs="unbounded">
+													<xs:element name="version" minOccurs="0" maxOccurs="unbounded">
 														<xs:complexType>
-															<xs:attribute ref="id" use="required"/>
+															<xs:attribute ref="id" use="required">
+																<xs:annotation>
+																	<xs:documentation>versin ID</xs:documentation>
+																</xs:annotation>
+															</xs:attribute>
 															<xs:attribute ref="rem">
 																<xs:annotation>
 																	<xs:documentation>remarks, additional comments, eg. stage of followu-up</xs:documentation>
@@ -30,53 +54,31 @@
 																	<xs:complexType>
 																		<xs:attribute ref="l" use="required"/>
 																		<xs:attribute ref="nm" use="required"/>
+																		<xs:attribute name="descriptionfile" type="xs:token">
+																			<xs:annotation>
+																				<xs:documentation>URL/ link for the published audit report</xs:documentation>
+																			</xs:annotation>
+																		</xs:attribute>
 																	</xs:complexType>
 																</xs:element>
 															</xs:sequence>
 														</xs:complexType>
 													</xs:element>
-													<xs:element name="WorkingLanguage">
-														<xs:annotation>
-															<xs:documentation>TBD</xs:documentation>
-														</xs:annotation>
-														<xs:complexType>
-															<xs:attribute ref="wl" use="required">
-																<xs:annotation>
-																	<xs:documentation>TBD: wl or l</xs:documentation>
-																</xs:annotation>
-															</xs:attribute>
-														</xs:complexType>
-													</xs:element>
 												</xs:sequence>
 												<xs:attribute ref="id" use="required"/>
-												<xs:attribute name="descriptionfile" type="xs:token">
+												<xs:attribute name="date" type="xs:token" use="required">
 													<xs:annotation>
-														<xs:documentation>TBD</xs:documentation>
+														<xs:documentation>date of the audit report's publication, recommended format: YYYY-MM-dd </xs:documentation>
 													</xs:annotation>
 												</xs:attribute>
 												<xs:attribute name="yearCovered" type="xs:token">
 													<xs:annotation>
-														<xs:documentation>TDB</xs:documentation>
+														<xs:documentation>eg 2021, or 2019-2022</xs:documentation>
 													</xs:annotation>
 												</xs:attribute>
 												<xs:attribute name="casesNumber" type="xs:long">
 													<xs:annotation>
-														<xs:documentation>autocalc</xs:documentation>
-													</xs:annotation>
-												</xs:attribute>
-												<xs:attribute name="year" type="xs:token" use="required">
-													<xs:annotation>
-														<xs:documentation>NEW year of the audit repor issue</xs:documentation>
-													</xs:annotation>
-												</xs:attribute>
-												<xs:attribute name="month" type="xs:token">
-													<xs:annotation>
-														<xs:documentation>NEW month of the issue</xs:documentation>
-													</xs:annotation>
-												</xs:attribute>
-												<xs:attribute name="date" type="xs:token">
-													<xs:annotation>
-														<xs:documentation>TBD</xs:documentation>
+														<xs:documentation>autocalculated nubmer of Recommendations</xs:documentation>
 													</xs:annotation>
 												</xs:attribute>
 												<xs:attribute ref="rem"/>
@@ -90,6 +92,9 @@
 											</xs:complexType>
 										</xs:element>
 										<xs:element name="Scope">
+											<xs:annotation>
+												<xs:documentation>Objectives, scope and methodology of the audit</xs:documentation>
+											</xs:annotation>
 											<xs:complexType>
 												<xs:sequence>
 													<xs:element ref="ak" maxOccurs="unbounded"/>
@@ -99,10 +104,13 @@
 										<xs:element name="Cases">
 											<xs:complexType>
 												<xs:sequence>
-													<xs:element name="Case" maxOccurs="unbounded">
+													<xs:element name="Case" minOccurs="0" maxOccurs="unbounded">
 														<xs:complexType>
 															<xs:sequence>
-																<xs:element name="cts">
+																<xs:element name="cts" minOccurs="0">
+																	<xs:annotation>
+																		<xs:documentation>CUBE-like analysis of the key terminology used - TO BE developed in future, if found useful</xs:documentation>
+																	</xs:annotation>
 																	<xs:complexType>
 																		<xs:attribute name="issue" type="xs:token" use="required"/>
 																		<xs:attribute name="area" type="xs:token" use="required"/>
@@ -114,38 +122,41 @@
 															</xs:sequence>
 															<xs:attribute name="number">
 																<xs:annotation>
-																	<xs:documentation>TBD</xs:documentation>
+																	<xs:documentation>number or letter or other sequential mark in the report</xs:documentation>
 																</xs:annotation>
 																<xs:simpleType>
 																	<xs:restriction base="xs:string"/>
 																</xs:simpleType>
 															</xs:attribute>
-															<xs:attribute ref="nr" use="required"/>
-															<xs:attribute ref="nm" use="required"/>
-															<xs:attribute name="eff" use="required">
-																<xs:simpleType>
-																	<xs:restriction base="xs:string"/>
-																</xs:simpleType>
-															</xs:attribute>
-															<xs:attribute name="doc" use="required">
+															<xs:attribute ref="nr" use="required">
 																<xs:annotation>
-																	<xs:documentation>reference to other location in this doc</xs:documentation>
+																	<xs:documentation>autoID generated by AMS</xs:documentation>
+																</xs:annotation>
+															</xs:attribute>
+															<xs:attribute ref="nm">
+																<xs:annotation>
+																	<xs:documentation>name of the finding</xs:documentation>
+																</xs:annotation>
+															</xs:attribute>
+															<xs:attribute name="eff">
+																<xs:annotation>
+																	<xs:documentation>additional part of the name, like: group of findings</xs:documentation>
 																</xs:annotation>
 																<xs:simpleType>
 																	<xs:restriction base="xs:string"/>
 																</xs:simpleType>
 															</xs:attribute>
-															<xs:attribute name="act" use="required">
+															<xs:attribute name="doc">
 																<xs:annotation>
-																	<xs:documentation>reference to a relevant legal act</xs:documentation>
+																	<xs:documentation>reference to the location (page, paragraph, chaptere etc.) in this audit report</xs:documentation>
 																</xs:annotation>
 																<xs:simpleType>
 																	<xs:restriction base="xs:string"/>
 																</xs:simpleType>
 															</xs:attribute>
-															<xs:attribute name="Include">
+															<xs:attribute name="act">
 																<xs:annotation>
-																	<xs:documentation>TBD</xs:documentation>
+																	<xs:documentation>reference to a relevant legal act, standard, contract or other compliance reference</xs:documentation>
 																</xs:annotation>
 																<xs:simpleType>
 																	<xs:restriction base="xs:string"/>
@@ -162,13 +173,18 @@
 													<xs:element name="Recommendation" maxOccurs="unbounded">
 														<xs:complexType>
 															<xs:sequence>
+																<xs:element ref="category" maxOccurs="unbounded"/>
 																<xs:element ref="quote" maxOccurs="unbounded"/>
 																<xs:element name="findings" minOccurs="0">
 																	<xs:complexType>
 																		<xs:sequence minOccurs="0">
 																			<xs:element name="finding" maxOccurs="unbounded">
 																				<xs:complexType>
-																					<xs:attribute ref="nr"/>
+																					<xs:attribute ref="nr" use="required">
+																						<xs:annotation>
+																							<xs:documentation>number or letter or other sequential mark in the KNAO audit report</xs:documentation>
+																						</xs:annotation>
+																					</xs:attribute>
 																				</xs:complexType>
 																			</xs:element>
 																		</xs:sequence>
@@ -191,6 +207,9 @@
 																						</xs:simpleType>
 																					</xs:attribute>
 																					<xs:attribute name="date" use="required">
+																						<xs:annotation>
+																							<xs:documentation>assessment date, recommended format: YYYY-MM-dd</xs:documentation>
+																						</xs:annotation>
 																						<xs:simpleType>
 																							<xs:restriction base="xs:string"/>
 																						</xs:simpleType>
@@ -201,25 +220,30 @@
 																	</xs:complexType>
 																</xs:element>
 															</xs:sequence>
+															<xs:attribute ref="nr"/>
 															<xs:attribute name="riskevaluation" use="required">
+																<xs:annotation>
+																	<xs:documentation>Considers type of subject at risk – or in another words: risk coverage or level. In SAI practice, usually those are: State, Region, Municipality, Sector, Entity. </xs:documentation>
+																</xs:annotation>
 																<xs:simpleType>
 																	<xs:restriction base="xs:string"/>
 																</xs:simpleType>
 															</xs:attribute>
-															<xs:attribute name="risk" use="required">
-																<xs:simpleType>
-																	<xs:restriction base="xs:string"/>
-																</xs:simpleType>
+															<xs:attribute name="risk" type="xs:token">
+																<xs:annotation>
+																	<xs:documentation>top risk - in future can be developed to the list of risks, if needed</xs:documentation>
+																</xs:annotation>
 															</xs:attribute>
-															<xs:attribute name="repeated" use="required">
-																<xs:simpleType>
-																	<xs:restriction base="xs:string"/>
-																</xs:simpleType>
+															<xs:attribute name="repeated" type="xs:token" use="required">
+																<xs:annotation>
+																	<xs:documentation>In line with the KNAO systme of marking repeated finidngs-recommendations</xs:documentation>
+																</xs:annotation>
 															</xs:attribute>
-															<xs:attribute name="priority">
-																<xs:simpleType>
-																	<xs:restriction base="xs:string"/>
-																</xs:simpleType>
+															<xs:attribute name="priority" type="xs:string">
+																<xs:annotation>
+																	<xs:documentation>Highlights a special character of the recommendation.
+Available values:  Strategic, Urgent (should be clearly pointed out in the text of the Recommendation). No value means: regular.</xs:documentation>
+																</xs:annotation>
 															</xs:attribute>
 															<xs:attribute name="number">
 																<xs:annotation>
@@ -229,13 +253,10 @@
 																	<xs:restriction base="xs:string"/>
 																</xs:simpleType>
 															</xs:attribute>
-															<xs:attribute ref="nr"/>
-															<xs:attribute name="importance">
-																<xs:simpleType>
-																	<xs:restriction base="xs:string"/>
-																</xs:simpleType>
-															</xs:attribute>
 															<xs:attribute name="category" use="required">
+																<xs:annotation>
+																	<xs:documentation>Topic describing the problem area of the recommendation, eg: Agriculture and Food, Transport etc.</xs:documentation>
+																</xs:annotation>
 																<xs:simpleType>
 																	<xs:restriction base="xs:string"/>
 																</xs:simpleType>
@@ -251,35 +272,10 @@
 											</xs:complexType>
 										</xs:element>
 									</xs:sequence>
-									<xs:attribute name="title">
+									<xs:attribute name="order" type="xs:nonNegativeInteger">
 										<xs:annotation>
-											<xs:documentation>TBD</xs:documentation>
+											<xs:documentation>additional ordering instruction, eg if an audit should be kept on the top, even if it is not the newest one</xs:documentation>
 										</xs:annotation>
-										<xs:simpleType>
-											<xs:restriction base="xs:string">
-												<xs:enumeration value=""/>
-											</xs:restriction>
-										</xs:simpleType>
-									</xs:attribute>
-									<xs:attribute name="order">
-										<xs:annotation>
-											<xs:documentation>TBD</xs:documentation>
-										</xs:annotation>
-										<xs:simpleType>
-											<xs:restriction base="xs:string">
-												<xs:enumeration value=""/>
-											</xs:restriction>
-										</xs:simpleType>
-									</xs:attribute>
-									<xs:attribute name="id">
-										<xs:annotation>
-											<xs:documentation>TBD</xs:documentation>
-										</xs:annotation>
-										<xs:simpleType>
-											<xs:restriction base="xs:string">
-												<xs:enumeration value=""/>
-											</xs:restriction>
-										</xs:simpleType>
 									</xs:attribute>
 								</xs:complexType>
 							</xs:element>
@@ -287,25 +283,18 @@
 					</xs:complexType>
 				</xs:element>
 			</xs:sequence>
-			<xs:attribute name="publish" use="required">
+			<xs:attribute name="autoNr" use="required">
+				<xs:annotation>
+					<xs:documentation>automatically generated number</xs:documentation>
+				</xs:annotation>
 				<xs:simpleType>
 					<xs:restriction base="xs:string"/>
 				</xs:simpleType>
 			</xs:attribute>
-			<xs:attribute name="org" use="required">
-				<xs:simpleType>
-					<xs:restriction base="xs:string"/>
-				</xs:simpleType>
-			</xs:attribute>
-			<xs:attribute name="id" use="required">
-				<xs:simpleType>
-					<xs:restriction base="xs:string"/>
-				</xs:simpleType>
-			</xs:attribute>
-			<xs:attribute name="description" use="required">
-				<xs:simpleType>
-					<xs:restriction base="xs:string"/>
-				</xs:simpleType>
+			<xs:attribute name="publish" type="xs:boolean" use="required">
+				<xs:annotation>
+					<xs:documentation>Is the Portfolio to be published, or to stay as an internal resource</xs:documentation>
+				</xs:annotation>
 			</xs:attribute>
 			<xs:attribute name="coverage" use="required">
 				<xs:annotation>
@@ -318,7 +307,7 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:attribute name="id" type="xs:token"/>
-	<xs:attribute name="rem">
+	<xs:attribute name="rem" type="xs:normalizedString">
 		<xs:annotation>
 			<xs:documentation>remarks, additional comments</xs:documentation>
 		</xs:annotation>
@@ -338,10 +327,9 @@
 			<xs:documentation>paragraph - open for rich content</xs:documentation>
 		</xs:annotation>
 		<xs:complexType mixed="true">
-			<xs:attribute ref="l"/>
+			<xs:attribute ref="l" use="required"/>
 		</xs:complexType>
 	</xs:element>
-	<xs:attribute name="name"/>
 	<xs:attribute name="nm" type="xs:normalizedString">
 		<xs:annotation>
 			<xs:documentation>name</xs:documentation>
@@ -349,12 +337,18 @@
 	</xs:attribute>
 	<xs:element name="quote">
 		<xs:complexType mixed="true">
-			<xs:attribute ref="l"/>
+			<xs:attribute ref="l" use="required"/>
 			<xs:attribute name="type" type="xs:normalizedString">
 				<xs:annotation>
 					<xs:documentation>Can be e.g. a description, or reference to previous recommendation</xs:documentation>
 				</xs:annotation>
 			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="category">
+		<xs:complexType mixed="true">
+			<xs:attribute ref="l" use="required"/>
+			<xs:attribute ref="nm" use="required"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:attribute name="nr" type="xs:token">
